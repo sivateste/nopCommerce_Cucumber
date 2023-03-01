@@ -125,6 +125,7 @@ public class Steps extends BaseClass{
 	public void click_on_customer_menu_items() throws Throwable {
 		Thread.sleep(2000);
 		addCust.clickOnCustomerItemMenu();
+		logger.info("************** Click on Customer Menu Items ***************");
 
 	}
 
